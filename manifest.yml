@@ -1,0 +1,45 @@
+repo_name: "Mud Mod Manager Community Repo"
+repo_version: "1.0.0"
+description: "A community-maintained repository for game mods and configurations compatible with the Mud Mod Manager."
+
+supported_games:
+  - game_id: "baldursGate3"
+    game_name: "Baldur's Gate 3"
+    game_version: "4.1.1.3732833"
+    description: "Support for Baldur's Gate 3, including modding setup and integration."
+    init_config: "games/baldursGate3/init/configs/config.yml"
+    mod_directory: "games/baldursGate3/mods"
+    supported_mods:
+      - mod_id: "sampleMod"
+        mod_name: "Sample Mod"
+        mod_version: "1.0.0"
+        mod_config: "games/baldursGate3/mods/sampleMod/configs/config.yml"
+
+  - game_id: "cyberpunk2077"
+    game_name: "Cyberpunk 2077"
+    game_version: "1.3.0"
+    description: "Placeholder for future support of Cyberpunk 2077."
+    init_config: null
+    mod_directory: null
+    supported_mods: null
+
+  - game_id: "minecraft"
+    game_name: "Minecraft"
+    game_version: "1.17.1"
+    description: "Placeholder for future support of Minecraft."
+    init_config: null
+    mod_directory: null
+    supported_mods: null
+
+  - game_id: "tesSkyrim"
+    game_name: "The Elder Scrolls V: Skyrim"
+    game_version: "1.5.97"
+    description: "Placeholder for future support of Skyrim."
+    init_config: null
+    mod_directory: null
+    supported_mods: null
+
+metadata:
+  last_updated: "2024-08-14"
+  maintained_by: "Mud Mod Manager Community"
+  contact: "mud+nick@heyer.app"

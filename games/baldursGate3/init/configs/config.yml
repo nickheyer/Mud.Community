@@ -1,0 +1,61 @@
+init_name: "Baldur's Gate 3 Initialization"
+init_version: "1.0.0"
+description: "Prepares Baldur's Gate 3 for modding by setting up necessary directories, linking to mod sources, and ensuring the game files are ready for modifications."
+author: "Mud Mod Manager"
+website: "https://example.com/mud"
+
+settings:
+  - key: "backup_game_files"
+    label: "Backup Game Files"
+    type: "boolean"
+    default: true
+    description: "Automatically backup original game files before applying mods."
+
+  - key: "steam_workshop_integration"
+    label: "Enable Steam Workshop Integration"
+    type: "boolean"
+    default: true
+    description: "Enable integration with Steam Workshop for automatic mod updates."
+
+  - key: "mod_update_interval"
+    label: "Mod Update Interval"
+    type: "select"
+    options:
+      - "daily"
+      - "weekly"
+      - "monthly"
+    default: "weekly"
+    description: "Set the frequency of automatic mod updates."
+
+  - key: "custom_game_directory"
+    label: "Custom Game Directory"
+    type: "path"
+    default: "/path/to/baldurs_gate3"
+    description: "Specify a custom directory where the game is installed."
+
+  - key: "enable_logs"
+    label: "Enable Logging"
+    type: "boolean"
+    default: true
+    description: "Enable logging for all initialization and modding operations."
+
+scripts:
+  - event: "pre_init"
+    description: "Script to run before initialization (e.g., check game integrity, set up logs)."
+    path: "../scripts/pre_init.py"
+
+  - event: "init"
+    description: "The main script to initialize the game for modding (e.g., backup files, create mod directories)."
+    path: "../scripts/init.py"
+
+  - event: "post_init"
+    description: "Finalization script to run after initialization (e.g., enable modding, link to mod sources)."
+    path: "../scripts/post_init.py"
+
+  - event: "on_update"
+    description: "Script to run when checking for and applying mod updates."
+    path: "../scripts/update.py"
+
+  - event: "on_cleanup"
+    description: "Script to run when cleaning up mods or restoring the game to its original state."
+    path: "../scripts/cleanup.py"
