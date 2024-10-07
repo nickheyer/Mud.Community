@@ -1,0 +1,44 @@
+{
+    "settings": [
+        {
+            "key": "backup_game_files",
+            "label": "Backup Game Files",
+            "widget": "boolean",
+            "default": true,
+            "description": "Automatically backup original game files before applying mods."
+        },
+        {
+            "key": "steam_workshop_integration",
+            "label": "Enable Steam Workshop Integration",
+            "widget": "boolean",
+            "default": true,
+            "description": "Enable integration with Steam Workshop for automatic mod updates."
+        },
+        {
+            "key": "mod_update_interval",
+            "label": "Mod Update Interval",
+            "widget": "choice",
+            "options": [
+                "daily",
+                "weekly",
+                "monthly"
+            ],
+            "default": "weekly",
+            "description": "Set the frequency of automatic mod updates."
+        },
+        {
+            "key": "custom_game_directory",
+            "label": "Custom Game Directory",
+            "widget": "text",
+            "default": "/path/to/baldurs_gate3",
+            "description": "Specify a custom directory where the game is installed."
+        },
+        {
+            "key": "enable_logs",
+            "label": "Enable Logging",
+            "widget": "boolean",
+            "default": true,
+            "description": "Enable logging for all initialization and modding operations."
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "settings": [
+    {
+      "key": "enable_mod",
+      "label": "Enable Mod",
+      "widget": "boolean",
+      "default": true,
+      "description": "Enable or disable the mod."
+    },
+    {
+      "key": "texture_quality",
+      "label": "Texture Quality",
+      "widget": "choice",
+      "options": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "default": "high",
+      "description": "Set the texture quality for the mod."
+    },
+    {
+      "key": "custom_path",
+      "label": "Custom Installation Path",
+      "widget": "text",
+      "default": "/path/to/game/Mods/sampleMod",
+      "description": "Specify a custom path for installing the mod."
+    },
+    {
+      "key": "difficulty",
+      "label": "Difficulty Level",
+      "widget": "choice",
+      "options": [
+        "easy",
+        "normal",
+        "hard"
+      ],
+      "default": "normal",
+      "description": "Set the difficulty level for the mod's features."
+    }
+  ]
+}

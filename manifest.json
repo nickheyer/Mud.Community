@@ -1,0 +1,71 @@
+{
+    "metadata": {
+        "name": "Mud Mod Manager Community Repo",
+        "version": "1.0.0",
+        "description": "A community-maintained repository for game mods and configurations compatible with the Mud Mod Manager.",
+        "updated": "2024-08-14",
+        "author": "Mud Mod Manager Community",
+        "contact": "mud+nick@heyer.app"
+    },
+    "games": [
+        {
+            "id": "baldursGate3",
+            "name": "Baldur's Gate 3",
+            "version": "4.1.1.3732833",
+            "description": "Support for Baldur's Gate 3, including modding setup and integration.",
+            "path": "games/baldursGate3",
+            "config": "config.json",
+            "scripts": {
+                "init": "init.mud",
+                "update": "update.mud"
+            },
+            "mods": [
+                {
+                    "id": "sampleMod",
+                    "name": "Sample Mod",
+                    "version": "1.0.0",
+                    "description": "A sample mod for proof of concept implementation.",
+                    "path": "mods/sampleMod",
+                    "config": "config.json",
+                    "scripts": {
+                        "install": "install.mud",
+                        "post_install": "post_install.mud",
+                        "pre_install": "pre_install.mud",
+                        "remove": "remove.mud",
+                        "update": "update.mud"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cyberpunk2077",
+            "name": "Cyberpunk 2077",
+            "version": "1.3.0",
+            "description": "Placeholder for future support of Cyberpunk 2077.",
+            "path": "games/cyberpunk2077",
+            "config": "config.json",
+            "scripts": {},
+            "mods": []
+        },
+        {
+            "id": "minecraft",
+            "name": "Minecraft",
+            "version": "1.17.1",
+            "description": "Placeholder for future support of Minecraft.",
+            "path": "games/minecraft",
+            "config": "config.json",
+            "scripts": {},
+            "mods": []
+        },
+        {
+            "id": "tesSkyrim",
+            "name": "The Elder Scrolls V: Skyrim",
+            "version": "1.5.97",
+            "description": "Placeholder for future support of Skyrim.",
+            "path": "games/tesSkyrim",
+            "config": "config.json",
+            "scripts": {},
+            "mods": []
+        }
+    ]
+}
