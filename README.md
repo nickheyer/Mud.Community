@@ -1,6 +1,8 @@
 # Mud.Community
 
-An open-source repository for `.mud` files and configurations, designed to be compatible with [Mud Mod Manager](https://github.com/nickheyer/Mud). This repository aims to simplify the modding experience for a wide range of games, offering a centralized collection of everything the Mud Mod Manager needs to do it's job. Its platform-agnostic design means that whether you’re modding a game on PC, Mac, or Linux, the same `.mud` scripts can be adapted to work seamlessly. Mud.Community empowers modders and users alike to automate game setup, manage mod installations, and create consistent modding experiences across different platforms. Contributions from the community help ensure that the repository continues to grow and evolve, making mod management easier for everyone.
+An open-source repository for `.mud` files and configurations, designed to be compatible with [Mud Mod Manager](https://github.com/nickheyer/Mud). This repository aims to simplify the modding experience for a wide range of games, offering a centralized collection of everything the Mud Mod Manager needs to do it's job. Its platform-agnostic design means that whether you’re modding a game on PC, Mac, or Linux, the same `.mud` scripts can be adapted to work seamlessly.
+
+The Mud Community Repo (and Mud itself) empowers users to automate game setup, manage installations, and create consistent modding experiences across different platforms. Contributions from the community help ensure that the repository continues to grow and evolve, making mod management easier for everyone.
 
 ## Project Structure
 
